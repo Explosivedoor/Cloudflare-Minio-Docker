@@ -13,4 +13,4 @@ This seems to only work for the API (9000) or console (9001) directly but not bo
 
 
 ## Ok...then what can I do??? 
-You can route it through Cloudflare without Cloudflare proxy on (the cloud grayed out). This will allow connections not on http or https ports. HOWEVER, this will expose your ip...so generally not good for homelab setups. It also means you can't use Cloudflare certs on your minio setup. 
+You can route it through Cloudflare without Cloudflare proxy on (the cloud grayed out). This will allow connections on non-http or https ports. HOWEVER, this will expose your ip...so generally not good for homelab setups. It also means you can't use Cloudflare certs on your minio setup. 
